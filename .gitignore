@@ -1,0 +1,28 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# Big data and pipeline intermediates (too large for git)
+data/big_dataset.parquet/
+big_dataset.parquet/
+ab_items.parquet/
+mlhd_interactions.parquet/
+pairs.parquet/
+pos.parquet/
+neg.parquet/
+pool.parquet/
+uprof.parquet/
+iprof.parquet/
+SPLIT_TS.txt
+
+# OS
+.DS_Store
